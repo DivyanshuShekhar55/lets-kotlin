@@ -17,7 +17,29 @@ class Person constructor(val name: String, var age: Int) {
 
 fun a() {
     val p = Person("hello", 12)
+    p.age = 21 // this is the default setter
+    println(p.age) // this is the default getter
 }
 
 
-// 
+// DEFINING CUSTOM GETTERS AND SETTERS
+class hero constructor(val name: String, val power: String) {
+
+    // val properties can only have a defined getter
+    // each variable property can have both its getter and setter defined as followed
+    // can have default values
+    // then use the "field" to return the current value held by the property
+    var extraPower: String = ""
+        get() = field
+        set(value) {
+            println("can do something in this function")
+            field = value
+        }
+}
+
+fun customGetSet() {
+    val ironMan = hero(name = "Tony Stark", power = "Flying Suit")
+    ironMan.extraPower = "Laser Blast" // this calls our setter
+    println(ironMan.extraPower) // calls our getter
+}
+

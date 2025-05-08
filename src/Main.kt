@@ -33,5 +33,6 @@ fun main() {
 
 
     // CLASS CALLERS FROM HERE
-    a()
+    // a()
+    customGetSet()
 }
