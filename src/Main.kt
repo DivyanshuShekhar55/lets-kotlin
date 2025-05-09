@@ -36,4 +36,5 @@ fun main() {
     // a()
     // customGetSet()
     b()
+    classyMain()
 }
