@@ -43,3 +43,7 @@ fun customGetSet() {
     println(ironMan.extraPower) // calls our getter
 }
 
+
+// INTERFACES
+// the docs for interfaces is quite short and easy to read
+// https://kotlinlang.org/docs/interfaces.html
