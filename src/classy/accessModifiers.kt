@@ -8,3 +8,18 @@
 // If you override a protected or an internal member and do not specify the visibility explicitly...
 // ...the overriding member will also have the same visibility as the original
 
+open class Car {
+    protected fun honk() { }
+    public val price=10
+}
+
+class SportsCar : Car() {
+    fun test() {
+        honk() // Allowed
+    }
+
+    fun getParentPrice(){
+        println(price) // not allowed if price was private
+    }
+
+}
