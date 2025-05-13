@@ -5,6 +5,7 @@ fun classyMain(){
     buggati.getParentPrice()
 
     dataClassCaller()
+    callerFun()
 
 }
 
