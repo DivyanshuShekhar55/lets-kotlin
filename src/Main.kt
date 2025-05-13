@@ -1,5 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import classy.classyMain
 fun main() {
 
     // vals are like const and vars are variables`

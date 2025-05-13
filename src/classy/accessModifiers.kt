@@ -7,7 +7,7 @@
 
 // If you override a protected or an internal member and do not specify the visibility explicitly...
 // ...the overriding member will also have the same visibility as the original
-
+package classy
 open class Car {
     protected fun honk() { }
     public val price=10
